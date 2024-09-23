@@ -1,1 +1,1 @@
-# LeetCode POTD (Problem of the Day)
+# LeetCode POTD
