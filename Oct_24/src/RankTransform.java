@@ -1,13 +1,14 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
+// 1331. Rank Transform of an Array
+//Date: 02/10/24
+
+import java.util.*;
 
 public class RankTransform {
     public static void main(String[] args) {
         int[] arr = {37,12,28,9,100,56,80,5,12};
         System.out.println(Arrays.toString(arrayRankTransform(arr)));
     }
+    // Approach 01
     static int[] arrayRankTransform(int[] arr) {
         int n = arr.length;
         ArrayList<Integer> indexArr = new ArrayList<>();
